@@ -303,8 +303,53 @@ a {
 }
 
 
-/* TESITMONIAL */
-.tesitmonial {
+/* CLIENTS */
+.clients {
   padding-top: 100px;
-  padding-bottom: 0;
+  padding-bottom: 100px;
+}
+.client-list {
+}
+.client-item > div {
+  width: 50%;
+  float: left;
+}
+.client-item {
+}
+.client-item__img {
+  padding-left: 100px;
+}
+.client-item__info {
+}
+.client-item__name {
+  margin-bottom: 4px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  color: #212529;
+}
+.client-item__job {
+  margin-top: 0;
+  margin-bottom: 16px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #212529;
+}
+.client-item__text {
+  margin-top: 0;
+  font-weight: 300;
+  line-height: 27px;
+  color: #888;
+}
+
+.client-iten__rate {
+  display: flex;
+  align-items: center;
+  padding: 0;
+  margin-top: 24px;
+  margin-bottom: 0;
+  list-style: none;
+}
+.client-item-stars:not(:last-child) {
+  margin-right: 6px;
 }
