@@ -221,7 +221,7 @@ a {
 
 /* ABOUT ME */
 .about-me {
-  padding-top: 80px;
+  padding-top: 100px;
   padding-bottom: 0;
 }
 .about-me > div {
@@ -249,6 +249,8 @@ a {
 
 /* SERVICES */
 .services {
+  padding-top: 100px;
+  padding-bottom: 0;
 }
 
 .services__list {
@@ -298,4 +300,11 @@ a {
   color: #05364d;
   display: inline-block;
   text-transform: uppercase;
+}
+
+
+/* TESITMONIAL */
+.tesitmonial {
+  padding-top: 100px;
+  padding-bottom: 0;
 }
