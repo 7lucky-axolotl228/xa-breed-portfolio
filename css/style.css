@@ -285,6 +285,9 @@ a {
 }
 .item__text {
   margin-bottom: 16px;
+  font-size: 14px;
+  line-height: 27px;
+  font-weight: 300;
   letter-spacing: 1px;
   color: #888;
 }
