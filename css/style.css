@@ -364,6 +364,10 @@ a {
   color: yellow;
 }
 
+.client-item-stars:last-child {
+  color: rgb(177, 174, 174);
+}
+
 
 /* PORTFOLIO */
 .portfolio {
