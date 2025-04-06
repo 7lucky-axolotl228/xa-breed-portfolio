@@ -73,6 +73,8 @@ a {
   color: #212529;
 }
 .blur-line {
+  position: relative;
+  top: -3px;
   display: inline-block;
   margin-left: 5px;
   width: 80px;
@@ -106,6 +108,7 @@ a {
   top: 0;
   left: 0;
   width: 100%;
+  z-index: 100;
   background-color: #fff;
   box-shadow: 0px 3px 16px 0px rgb(0 0 0 / 10%);
 }
@@ -314,8 +317,7 @@ a {
 
 /* CLIENTS */
 .clients {
-  margin-top: 100px;
-  margin-bottom: 100px;
+  padding: 100px 0 100px 0;
 }
 .client-item > div {
   width: 50%;
@@ -354,7 +356,109 @@ a {
   margin-top: 24px;
   margin-bottom: 0;
   list-style: none;
+  cursor: pointer;
 }
+
 .client-item-stars:not(:last-child) {
   margin-right: 6px;
+  color: yellow;
+}
+
+
+/* PORTFOLIO */
+.portfolio {
+  padding: 100px 0 100px 0;
+}
+
+.portfolio-filters {
+  list-style: none;
+  padding-left: 0;
+}
+
+.portfolio-filters__item {
+  display: inline-block;
+  margin-right: 20px;
+  font-size: 13px;
+  font-weight: 400;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.portfolio-filters__item-link {
+  color: #05364d;
+}
+
+.portfolio-filters__item-link:hover,
+.portfolio-filters__item-link.active {
+  color: #1345e6;
+}
+
+.portfolio-items {
+  position: relative;
+  margin-top: 20px;
+}
+
+.portfolio-item {
+  position: relative;
+  display: inline-block;
+  width: 50%;
+  padding: 10px;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.portfolio-item-1 {
+  padding-left: 0;
+}
+
+.portfolio-item-2 {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.portfolio-item-3 {
+  position: absolute;
+  right: 0;
+  top: 322px;
+}
+
+.portfolio-item__image {
+  width: 100%;
+}
+
+.portfolio-item__overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(19, 69, 230, 0.9);
+  visibility: hidden;
+  z-index: 1;
+}
+
+.portfolio-item__info {
+  position: absolute;
+  bottom: 44px;
+  left: 80px;
+  color: #fff;
+  visibility: hidden;
+  z-index: 1;
+}
+
+.portfolio-item__info a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.portfolio-item:hover .portfolio-item__overlay {
+  visibility: visible;
+  top: 20px;
+  left: 20px;
+}
+.portfolio-item:hover .portfolio-item__info {
+  visibility: visible;
+  bottom: 24px;
+  left: 60px;
 }
