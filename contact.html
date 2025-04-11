@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Breed Portfolio - Contact</title>
+  <link rel="stylesheet" href="css/shared.css">
+  <link rel="stylesheet" href="css/contact.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="site-header__container container">
+      <a href="" class="logo"><img src="img/logo.png" alt=""></a>
+      <nav class="site-header__nav">
+        <ul class="site-header__list list">
+          <li class="list__item"><a class="list__link" href="index.html">Home</a></li>
+          <li class="list__item"><a class="list__link" href="">About</a></li>
+          <li class="list__item"><a class="list__link" href="">Portfolio</a></li>
+          <li class="list__item"><a class="list__link" href="">Blog</a></li>
+          <li class="list__item"><a class="list__link" href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main-content">
+    <div class="container">
+      <section class="contact">
+        <h1 class="section-title">Get in Touch</h1>
+        <form action="/server.php" method="get">
+          <textarea name="message" rows="12" placeholder="Leave your message"></textarea>
+
+          <div class="half-row contact__name">
+            <input type="text" name="name" placeholder="Enter your name">
+          </div>
+          <div class="half-row contact__email">
+            <input type="email" name="email" placeholder="Enter your email">
+          </div>
+
+          <input type="text" name="subject" placeholder="Enter your subject">
+          <button class="gradient-button contact-btn" type="submit">Send message</button>
+        </form>
+      </section>
+    </div>
+  </main>
+
+</body>
+</html>
