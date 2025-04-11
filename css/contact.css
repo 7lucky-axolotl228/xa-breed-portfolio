@@ -1,0 +1,43 @@
+.contact {
+  padding: 150px 20px;
+}
+
+form {
+  width: 70%;
+}
+
+textarea, input {
+  width: 100%;
+  padding: 14px;
+  padding-left: 18px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #b8b8b8;
+  border-radius: 5px;
+  font-size: 13px;
+  background: transparent;
+  color: #495057;
+}
+
+textarea:focus,
+input:focus {
+  outline: 0;
+}
+
+.half-row {
+  width: 50%;
+  float: left;
+  box-sizing: border-box;
+}
+
+.contact__name {
+  padding-right: 15px;
+}
+
+.contact__email {
+  padding-left: 15px;
+}
+
+.contact-btn {
+  margin-top: 25px;
+}
