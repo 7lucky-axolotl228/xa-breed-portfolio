@@ -1,7 +1,9 @@
 .contact {
   padding: 150px 20px;
 }
-
+.contact__wrapper {
+  display: flex;
+}
 form {
   width: 70%;
 }
@@ -40,4 +42,36 @@ input:focus {
 
 .contact-btn {
   margin-top: 25px;
+}
+
+.contact__info {
+}
+.contact__info-list {
+  list-style: none;
+}
+.contact-list__item {
+  display: flex;
+  align-items: center;
+}
+
+.contact-list__item:not(:last-child) {
+  margin-bottom: 35px;
+}
+
+i {
+  margin-right: 20px;
+}
+
+.contact__address p {
+  margin: 0;
+}
+
+.address-country {
+  font-size: 17px;
+  color: #05364d;
+}
+
+.address-street {
+  font-size: 15px;
+  color: #999;
 }
