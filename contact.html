@@ -29,19 +29,50 @@
     <div class="container">
       <section class="contact">
         <h1 class="section-title">Get in Touch</h1>
-        <form action="/server.php" method="get">
-          <textarea name="message" rows="12" placeholder="Leave your message"></textarea>
+        <div class="contact__wrapper">
+          <form action="/server.php" method="get">
+            <textarea name="message" rows="12" placeholder="Leave your message"></textarea>
+            <div class="half-row contact__name">
+              <input type="text" name="name" placeholder="Enter your name">
+            </div>
+            <div class="half-row contact__email">
+              <input type="email" name="email" placeholder="Enter your email">
+            </div>
+            <input type="text" name="subject" placeholder="Enter your subject">
+            <button class="gradient-button contact-btn" type="submit">Send message</button>
+          </form>
 
-          <div class="half-row contact__name">
-            <input type="text" name="name" placeholder="Enter your name">
-          </div>
-          <div class="half-row contact__email">
-            <input type="email" name="email" placeholder="Enter your email">
-          </div>
+          <div class="contact__info">
+            <ul class="contact__info-list">
 
-          <input type="text" name="subject" placeholder="Enter your subject">
-          <button class="gradient-button contact-btn" type="submit">Send message</button>
-        </form>
+              <li class="contact-list__item">
+                <i class="fa fa-home"></i>
+                <div class="contact__address">
+                  <p class="address-country">Tashkent, Uzbekistan</p>
+                  <p class="address-street">Shaxrisabz, 1B</p>
+                </div>
+              </li>
+
+              <li class="contact-list__item">
+                <i class="fa fa-phone"></i>
+                <div class="contact__address">
+                  <p class="address-country">+99897-669-26-36</p>
+                  <p class="address-street">Mon to Fri 9am to 6pm</p>
+                </div>
+              </li>
+
+              <li class="contact-list__item">
+                <i class="fa fa-message"></i>
+                <div class="contact__address">
+                  <p class="address-country">supportanvar@gmail.com</p>
+                  <p class="address-street">Send us your query anytime!</p>
+                </div>
+              </li>
+
+            </ul>
+          </div>
+        </div>
+
       </section>
     </div>
   </main>
