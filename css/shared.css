@@ -16,16 +16,8 @@ html {
 }
 
 body {
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-  padding: 0;
   margin: 0;
   font-family: "Arial", sans-serif;
-  font-size: 16px;
-  line-height: 1.5;
-  background-color: #fff;
-  color: #212529;
 }
 
 .visually-hidden {
@@ -48,21 +40,23 @@ a {
 
 /* COMMON */
 .gradient-button {
-  padding: 15px 38px;
-  border-radius: 5px;
+  padding: 0.9375rem 2.375rem;
+  font-weight: 500;
+  font-size: 0.87rem;
   border: 0;
-  text-transform: uppercase;
-  color: #fff;
+  border-radius: 5px;
   background: linear-gradient(to right, #1345e6 0%, #ed239f 51%, #1345e6 100%);
   background-size: 200% auto;
+  color: #fff;
   cursor: pointer;
   transition: 0.4s ease;
+  text-transform: uppercase;
 }
 .gradient-button:hover {
   background-position: right center;
 }
 .section-subtitle {
-  margin-bottom: 10px;
+  margin-bottom: 0.625rem;
   font-weight: 500;
   letter-spacing: 2px;
   text-transform: uppercase;
@@ -70,10 +64,10 @@ a {
 }
 .section-title {
   margin-top: 0;
-  margin-bottom: 30px;
-  font-size: 42px;
+  margin-bottom: 1.875rem;
+  font-size: 2.62rem;
   font-weight: 700;
-  line-height: 52px;
+  line-height: 3.25rem;
   text-transform: capitalize;
   color: #212529;
 }
@@ -81,7 +75,7 @@ a {
   position: relative;
   top: -3px;
   display: inline-block;
-  margin-left: 5px;
+  margin-left: 0.3125rem;
   width: 80px;
   height: 4px;
   filter: blur(4px);
@@ -121,12 +115,12 @@ a {
 .site-header__container {
   display: flex;
   align-items: center;
-  margin-top: 38px;
-  margin-bottom: 38px;
+  margin-top: 1.6rem;
+  margin-bottom: 1.6rem;
 }
 
 .site-header__nav {
-  margin-left: 140px;
+  margin-left: 8.75rem;
 }
 
 .site-header__list {
@@ -137,11 +131,11 @@ a {
 }
 
 .list__item {
-  margin-right: 25px;
+  margin-right: 1.6rem;
 }
 
 .list__link {
-  font-size: 16px;
+  font-size: 1rem;
   text-transform: uppercase;
   color: #05364d;
 }
