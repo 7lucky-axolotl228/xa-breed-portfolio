@@ -1,5 +1,5 @@
 .contact {
-  padding: 150px 20px;
+  padding: 9.375rem 1.25rem;
 }
 .contact__wrapper {
   display: flex;
@@ -10,13 +10,13 @@ form {
 
 textarea, input {
   width: 100%;
-  padding: 14px;
-  padding-left: 18px;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  padding: 0.875rem;
+  padding-left: 1.125rem;
+  margin-top: 0.625rem;
+  margin-bottom: 0.625rem;
   border: 1px solid #b8b8b8;
   border-radius: 5px;
-  font-size: 13px;
+  font-size: 0.8125rem;
   background: transparent;
   color: #495057;
 }
@@ -33,33 +33,32 @@ input:focus {
 }
 
 .contact__name {
-  padding-right: 15px;
+  padding-right: 0.9375rem;
 }
 
 .contact__email {
-  padding-left: 15px;
+  padding-left: 0.9375rem;
 }
 
 .contact-btn {
-  margin-top: 25px;
+  margin-top: 1.6rem;
 }
 
-.contact__info {
-}
 .contact__info-list {
   list-style: none;
 }
+
 .contact-list__item {
   display: flex;
   align-items: center;
 }
 
 .contact-list__item:not(:last-child) {
-  margin-bottom: 35px;
+  margin-bottom: 2.1875rem;
 }
 
 i {
-  margin-right: 20px;
+  margin-right: 1.25rem;
 }
 
 .contact__address p {
@@ -67,11 +66,11 @@ i {
 }
 
 .address-country {
-  font-size: 17px;
+  font-size: 1.0625rem;
   color: #05364d;
 }
 
 .address-street {
-  font-size: 15px;
+  font-size: 0.9375rem;
   color: #999;
 }
