@@ -202,3 +202,10 @@ a {
 .site-footer__social a {
   color: #021017;
 }
+
+.site-footer__social:hover {
+  background: linear-gradient(90deg, #1345e6 0%, #ed239f 100%);
+}
+.site-footer__social:hover a {
+  color: #fff;
+}
