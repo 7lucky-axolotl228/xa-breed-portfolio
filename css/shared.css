@@ -209,3 +209,24 @@ a {
 .site-footer__social:hover a {
   color: #fff;
 }
+
+
+
+
+
+@media only screen and (max-width: 767px) {
+  .container {
+    width: 96%;
+  }
+  .site-header__nav {
+    display: none;
+  }
+  .section-title {
+    font-size: 1.875rem;
+  }
+
+  /* FOOTER */
+  .site-footer__nav {
+    display: none;
+  }
+}
