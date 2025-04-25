@@ -404,3 +404,133 @@
   display: inline-block;
   padding: 0 1.25rem;
 }
+
+
+
+
+
+@media only screen and (max-width:767px) {
+  /* HERO SECTION */
+  .hero-banner-bg {
+    background: none;
+    min-height: auto;
+  }
+  .hero__image {
+    display: none;
+  }
+
+  .hero__button {
+    display: none;
+  }
+  .hero__container > div {
+    width: 100%;
+  }
+
+  .hero__text {
+    font-size: 1.875rem;
+  }
+  .hero__heading {
+    font-size: 2.18rem;
+  }
+  .hero__job {
+    font-weight: 300;
+  }
+
+  /* STATISTICS SECTION */
+  .statistics__list {
+     display: block;
+  }
+  .statistics__item {
+    width: 100%;
+    margin-right: 0;
+    box-sizing: border-box;
+    background: #f8faff;
+  }
+  .statistics__item:not(:last-child) {
+    margin-bottom: 20px;
+  }
+  .statistics__text {
+    line-height: 1.5rem;
+  }
+
+  /* ABOUT ME */
+  .about-me {
+    padding: 2.5rem 0;
+  }
+  .about-me__img img {
+    display: none;
+  }
+  .about-me > div {
+    width: 100%;
+  }
+  .about-me__info {
+    margin-left: 0;
+    min-width: 100%;
+  }
+
+  /* SERVICES SECTION */
+  .services {
+    padding: 1.5rem 0;
+  }
+  .services__list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .services__item {
+    max-width: 100%;
+  }
+  .services__item:not(:last-child) {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  /* CLIENTS SECTION */
+  .clients {
+    padding: 1.5rem 0;
+  }
+  .client-item > div {
+    width: 100%;
+    float: none;
+  }
+  .client-item__img {
+    padding: 0;
+  }
+
+  /* PORTFOLIO SECTION */
+  .portfolio {
+    padding: 1.5rem 0;
+  }
+  .portfolio-item {
+    width: 100%;
+  }
+  .portfolio-item-2,
+  .portfolio-item-3 {
+    padding: 0;
+    position: static;
+  }
+
+  /* BLOG SECTION */
+  .blog {
+    padding: 1.5rem 0;
+  }
+  .blog-item {
+    width: 100%;
+    margin-right: 0;
+  }
+  .blog-item:not(:last-child) {
+    margin-bottom: 20px;
+  }
+
+  /* PARTNERS SECTION */
+  .partners {
+    padding: 1.5rem 0;
+  }
+  .partner {
+    display: block;
+    padding: 0;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+
+}
