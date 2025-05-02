@@ -82,6 +82,10 @@ a {
   background-color: rgba(237, 35, 159, 0.6);
 }
 
+.active {
+  color: #e0008a;
+  opacity: 0.4;
+}
 
 
 
