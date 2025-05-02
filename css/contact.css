@@ -1,11 +1,8 @@
 .contact {
   padding: 9.375rem 1.25rem;
 }
-.contact__wrapper {
-  display: flex;
-}
 form {
-  width: 70%;
+  width: 100%;
 }
 
 textarea, input {
@@ -44,33 +41,13 @@ input:focus {
   margin-top: 1.6rem;
 }
 
-.contact__info-list {
-  list-style: none;
-}
+@media only screen and (max-width: 991px) {
+  .contact__wrapper {
+    display: block;
+  }
+  .half-row {
+    width: 100%;
+    padding: 0;
+  }
 
-.contact-list__item {
-  display: flex;
-  align-items: center;
-}
-
-.contact-list__item:not(:last-child) {
-  margin-bottom: 2.1875rem;
-}
-
-i {
-  margin-right: 1.25rem;
-}
-
-.contact__address p {
-  margin: 0;
-}
-
-.address-country {
-  font-size: 1.0625rem;
-  color: #05364d;
-}
-
-.address-street {
-  font-size: 0.9375rem;
-  color: #999;
 }
