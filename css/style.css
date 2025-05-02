@@ -407,6 +407,76 @@
 
 
 
+@media only screen and (max-width:991px) {
+  /* HERO */
+  .hero__image {
+    display: none;
+  }
+  .hero__container > div {
+    width: 100%;
+  }
+  /* STATISTICS */
+  .statistics {
+    padding-top: 1rem;
+    text-align: center;
+  }
+  /* ABOUT ME */
+  .about-me {
+    padding: 2rem 0;
+  }
+  .about-me > div {
+    width: 100%;
+  }
+  .about-me__img img {
+    display: none;
+  }
+  .about-me__info {
+    margin-left: 0;
+    min-width: 100%;
+  }
+  /* SERVICES */
+  .services {
+    padding: 1.5rem 0;
+  }
+  .services__item {
+    width: 45%;
+  }
+
+  /* CLIENTS SECTION */
+  .clients {
+    padding: 1.5rem 0;
+  }
+  .client-item > div {
+    width: 100%;
+    float: none;
+  }
+  .client-item__img {
+    padding: 0;
+  }
+  /* BLOG */
+  .blog {
+    padding: 1.5rem 0;
+  }
+  .blog-item {
+    width: 45%;
+    margin-right: 25px;
+  }
+  .blog-item:not(:last-child) {
+    margin-bottom: 25px;
+  }
+
+  /* PARTNERS SECTION */
+  .partners {
+    padding: 1.5rem 0;
+  }
+  .partner {
+    display: block;
+    padding: 0;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+}
+
 
 
 @media only screen and (max-width:767px) {
@@ -415,17 +485,9 @@
     background: none;
     min-height: auto;
   }
-  .hero__image {
-    display: none;
-  }
-
   .hero__button {
     display: none;
   }
-  .hero__container > div {
-    width: 100%;
-  }
-
   .hero__text {
     font-size: 1.875rem;
   }
@@ -453,47 +515,15 @@
     line-height: 1.5rem;
   }
 
-  /* ABOUT ME */
-  .about-me {
-    padding: 2.5rem 0;
-  }
-  .about-me__img img {
-    display: none;
-  }
-  .about-me > div {
-    width: 100%;
-  }
-  .about-me__info {
-    margin-left: 0;
-    min-width: 100%;
-  }
-
   /* SERVICES SECTION */
-  .services {
-    padding: 1.5rem 0;
-  }
   .services__list {
     display: flex;
     flex-wrap: wrap;
   }
   .services__item {
     max-width: 100%;
-  }
-  .services__item:not(:last-child) {
-    margin-right: 0;
+    margin-right: 10px;
     margin-bottom: 20px;
-  }
-
-  /* CLIENTS SECTION */
-  .clients {
-    padding: 1.5rem 0;
-  }
-  .client-item > div {
-    width: 100%;
-    float: none;
-  }
-  .client-item__img {
-    padding: 0;
   }
 
   /* PORTFOLIO SECTION */
@@ -508,29 +538,4 @@
     padding: 0;
     position: static;
   }
-
-  /* BLOG SECTION */
-  .blog {
-    padding: 1.5rem 0;
-  }
-  .blog-item {
-    width: 100%;
-    margin-right: 0;
-  }
-  .blog-item:not(:last-child) {
-    margin-bottom: 20px;
-  }
-
-  /* PARTNERS SECTION */
-  .partners {
-    padding: 1.5rem 0;
-  }
-  .partner {
-    display: block;
-    padding: 0;
-    text-align: center;
-    margin-bottom: 20px;
-  }
-
-
 }
