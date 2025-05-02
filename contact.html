@@ -29,53 +29,72 @@
     <div class="container">
       <section class="contact">
         <h1 class="section-title">Get in Touch</h1>
-        <div class="contact__wrapper">
-          <form action="/server.php" method="get">
-            <textarea name="message" rows="12" placeholder="Leave your message"></textarea>
-            <div class="half-row contact__name">
-              <input type="text" name="name" placeholder="Enter your name">
-            </div>
-            <div class="half-row contact__email">
-              <input type="email" name="email" placeholder="Enter your email">
-            </div>
-            <input type="text" name="subject" placeholder="Enter your subject">
-            <button class="gradient-button contact-btn" type="submit">Send message</button>
-          </form>
 
-          <div class="contact__info">
-            <ul class="contact__info-list">
-
-              <li class="contact-list__item">
-                <i class="fa fa-home"></i>
-                <div class="contact__address">
-                  <p class="address-country">Tashkent, Uzbekistan</p>
-                  <p class="address-street">Shaxrisabz, 1B</p>
-                </div>
-              </li>
-
-              <li class="contact-list__item">
-                <i class="fa fa-phone"></i>
-                <div class="contact__address">
-                  <p class="address-country">+99897-669-26-36</p>
-                  <p class="address-street">Mon to Fri 9am to 6pm</p>
-                </div>
-              </li>
-
-              <li class="contact-list__item">
-                <i class="fa fa-message"></i>
-                <div class="contact__address">
-                  <p class="address-country">supportanvar@gmail.com</p>
-                  <p class="address-street">Send us your query anytime!</p>
-                </div>
-              </li>
-
-            </ul>
+        <form action="/server.php" method="get">
+          <textarea name="message" rows="12" placeholder="Leave your message"></textarea>
+          <div class="half-row contact__name">
+            <input type="text" name="name" placeholder="Enter your name">
           </div>
-        </div>
+          <div class="half-row contact__email">
+            <input type="email" name="email" placeholder="Enter your email">
+          </div>
+          <input type="text" name="subject" placeholder="Enter your subject">
+          <button class="gradient-button contact-btn" type="submit">Send message</button>
+        </form>
 
       </section>
     </div>
   </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="site-footer__logo">
+        <img src="img/logo-white.webp" alt="logo">
+      </div>
+
+      <nav class="site-footer__nav">
+        <ul class="site-footer__nav-items">
+
+          <li class="site-footer__nav-item">
+            <a class="nav-item__link" href="">Home</a>
+          </li>
+
+          <li class="site-footer__nav-item">
+            <a class="nav-item__link" href="">About</a>
+          </li>
+
+          <li class="site-footer__nav-item">
+            <a class="nav-item__link" href="">Portfolio</a>
+          </li>
+
+          <li class="site-footer__nav-item">
+            <a class="nav-item__link" href="">Blog</a>
+          </li>
+
+          <li class="site-footer__nav-item">
+            <a class="nav-item__link" href="">Services</a>
+          </li>
+
+        </ul>
+      </nav>
+
+      <ul class="site-footer__socials">
+        <li class="site-footer__social contact__social">
+          <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+        </li>
+        <li class="site-footer__social contact__social">
+          <a href=""><i class="fa-brands fa-telegram-plane"></i></a>
+        </li>
+        <li class="site-footer__social contact__social">
+          <a href=""><i class="fa-brands fa-instagram"></i></a>
+        </li>
+        <li class="site-footer__social contact__social">
+          <a href=""><i class="fa-brands fa-pinterest-p"></i></a>
+        </li>
+      </ul>
+      <p>Copyright ©2025 All rights reserved | This template is made by Anvar</p>
+    </div>
+  </footer>
 
 </body>
 </html>
