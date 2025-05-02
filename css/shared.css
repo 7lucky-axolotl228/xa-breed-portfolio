@@ -203,6 +203,10 @@ a {
   color: #021017;
 }
 
+.contact__social a {
+  padding-left: 16px;
+}
+
 .site-footer__social:hover {
   background: linear-gradient(90deg, #1345e6 0%, #ed239f 100%);
 }
@@ -213,20 +217,23 @@ a {
 
 
 
+@media only screen and (max-width:991px) {
+  .container {
+    width: 90%;
+  }
+  .site-header__nav {
+    display: none;
+  }
+  .site-footer__nav {
+    display: none;
+  }
+}
 
 @media only screen and (max-width: 767px) {
   .container {
     width: 96%;
   }
-  .site-header__nav {
-    display: none;
-  }
   .section-title {
     font-size: 1.875rem;
-  }
-
-  /* FOOTER */
-  .site-footer__nav {
-    display: none;
   }
 }
