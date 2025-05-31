@@ -5,11 +5,9 @@
   background-size: cover;
   min-height: 890px;
 }
-.hero__container > div {
-  width: 50%;
-  float: left;
-}
 .hero__container {
+  display: flex;
+  justify-content: space-between;
   padding-top: 9.375rem;
   padding-bottom: 0;
 }
@@ -75,6 +73,7 @@
 }
 .statistics__item {
   width: 160px;
+  border-radius: 5px;
   padding: 1.875rem 1.25rem 1.25rem;
   background-color: #f3f3f3;
 }
@@ -97,12 +96,13 @@
 
 /* ABOUT ME */
 .about-me {
+  display: flex;
+  align-items:center;
   padding-top: 6.25rem;
   padding-bottom: 0;
 }
 .about-me > div {
-  width: 50%;
-  float: left;
+  flex: 1;
 }
 .about-me__img img {
   width: 90%;
@@ -131,13 +131,12 @@
 
 .services__list {
   display: flex;
-  align-items: center;
+  justify-content: space-between;
   padding: 0;
   margin: 0;
   list-style: none;
 }
 .services__item {
-  max-width: 330px;
   padding: 3.75rem 1.875rem;
   border-radius: 3px;
   text-align: center;
@@ -181,11 +180,14 @@
 
 /* CLIENTS */
 .clients {
-  padding: 6.25rem 0;
+  padding: 6.25rem 0 0 0;
+}
+.client-item {
+  display: flex;
+  justify-content: space-between;
 }
 .client-item > div {
-  width: 50%;
-  float: left;
+  flex: 1;
 }
 
 .client-item__img {
@@ -406,11 +408,14 @@
 
 /* PARTNERS */
 .partners {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
   padding: 6.25rem 0;
 }
 
 .partner {
-  display: inline-block;
+/*   display: inline-block; */
   padding: 0 1.25rem;
 }
 
